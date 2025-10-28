@@ -25,10 +25,10 @@ The project emphasizes a clean, professional, and trustworthy academic feel, wit
 
 * **Frontend:**
     * HTML5
-    * CSS3 (or a CSS preprocessor like SCSS/Tailwind CSS if you used one)
-    * JavaScript (ES6+)
-    * React.js (or your chosen framework like Vue.js/Angular)
-    * Framer Motion (for animations)
+    * Tailwind CSS 
+    * TypeScript
+    * React.js
+    * Framer Motion (for animation)
 * **Deployment:**
     * Netlify
 
