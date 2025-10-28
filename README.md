@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-Experience the live application deployed on Netlify: [**Live Demo Link**](YOUR_NETLIFY_DEPLOY_LINK_HERE)
+Experience the live application deployed on Netlify: https://campusgear.netlify.app/
 
 ## Project Overview
 
