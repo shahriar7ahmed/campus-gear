@@ -1,74 +1,82 @@
-# Welcome to your Lovable project
+# University Laptop Bank – Bridging the Digital Gap
 
-## Project info
+## Live Demo
 
-**URL**: https://lovable.dev/projects/5f7a3ff4-7150-446f-98cf-aca4200d1cbd
+Experience the live application deployed on Netlify: [**Live Demo Link**](YOUR_NETLIFY_DEPLOY_LINK_HERE)
 
-## How can I edit this code?
+## Project Overview
 
-There are several ways of editing your application.
+The University Laptop Bank is a modern, student-friendly web application designed to bridge the digital gap by providing easy access to technology for every student. This platform allows students to request laptops when needed and encourages the donation of old laptops to give them a second life.
 
-**Use Lovable**
+The project emphasizes a clean, professional, and trustworthy academic feel, with a focus on intuitive user experience and engaging animations.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5f7a3ff4-7150-446f-98cf-aca4200d1cbd) and start prompting.
+## Features
 
-Changes made via Lovable will be committed automatically to this repo.
+* **Hero Section:** A compelling headline and subtext with clear Call-to-Action (CTA) buttons for "Request a Laptop" and "Donate a Laptop."
+* **How It Works:** A simple, visual step-by-step guide explaining the laptop request and return process.
+* **Available Laptops:** Displays information about the standard laptop model and a live count of currently available machines.
+* **Donate a Laptop:** Encourages donations with clear instructions and benefits.
+* **Request a Laptop Form:** A user-friendly form for students to submit their laptop requests, including necessary details and agreement to terms.
+* **Responsive Design:** Optimized for various screen sizes, ensuring a seamless experience on desktops, tablets, and mobile devices.
+* **Modern UI/UX:** Clean layout, generous white space, rounded cards, and a refreshing color palette.
+* **Smooth Animations:** Utilizes Framer Motion for engaging fade-ins, slide-ups, staggered reveals, and hover effects, enhancing user interaction.
 
-**Use your preferred IDE**
+## Technologies Used
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* **Frontend:**
+    * HTML5
+    * CSS3 (or a CSS preprocessor like SCSS/Tailwind CSS if you used one)
+    * JavaScript (ES6+)
+    * React.js (or your chosen framework like Vue.js/Angular)
+    * Framer Motion (for animations)
+* **Deployment:**
+    * Netlify
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Color Palette
 
-Follow these steps:
+* **Primary:** Deep Blue (`#1E3A8A`)
+* **Secondary:** Fresh Teal (`#14B8A6`)
+* **Accent:** Warm Yellow (`#FACC15`)
+* **Background:** Soft Neutral Gray (`#F9FAFB`)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Typography
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* **Headings:** Poppins / Inter (Bold, geometric sans-serif)
+* **Body:** Roboto / Open Sans (Clean sans-serif)
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-**Edit a file directly in GitHub**
+### Prerequisites
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Make sure you have Node.js and npm (or yarn) installed on your system.
 
-**Use GitHub Codespaces**
+* [Node.js](https://nodejs.org/)
+* [npm](https://www.npmjs.com/get-npm) (comes with Node.js) or [Yarn](https://yarnpkg.com/)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Installation
 
-## What technologies are used for this project?
+1.  **Clone the repository:**
 
-This project is built with:
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+    cd YOUR_REPO_NAME
+    ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+2.  **Install dependencies:**
 
-## How can I deploy this project?
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-Simply open [Lovable](https://lovable.dev/projects/5f7a3ff4-7150-446f-98cf-aca4200d1cbd) and click on Share -> Publish.
+### Running the Development Server
 
-## Can I connect a custom domain to my Lovable project?
+To run the project locally in development mode:
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
-# campus-gear
+```bash
+npm start
+# or
+yarn start
